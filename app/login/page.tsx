@@ -1,7 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import LoginForm from '@/app/ui/login-form';
 
-
 export default function LoginPage() {
   return (
       <main className="flex items-center justify-center md:h-screen">
@@ -11,7 +10,7 @@ export default function LoginPage() {
               <AcmeLogo/>
             </div>
           </div>
-            <LoginForm/>
+          <LoginForm/>
         </div>
       </main>
   );
